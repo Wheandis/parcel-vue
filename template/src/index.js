@@ -1,7 +1,8 @@
-import Vue from 'vue/dist/vue.js'
+import Vue from 'vue'
 import HelloWord from './components/HelloWord.vue'
 
+
 new Vue({
-    el:"#app",
+    el: "#app",
     render: h => h(HelloWord)
 })
